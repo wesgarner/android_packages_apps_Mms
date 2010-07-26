@@ -810,5 +810,10 @@
     <string name="pref_title_mms_message_font_size">Message font size</string>
     <string name="pref_summary_mms_message_font_size">Change font size of message view</string>
     <string name="pref_dialogtitle_mms_message_font_size">Select font size</string>
+
+    <!-- Wes Garner: Notication Modes -->
+    <string name="pref_title_mms_notification_mode">Notification View Mode</string>
+    <string name="pref_summary_mms_notification_mode">Default Mode, Privacy Mode, Always show the last text received</string>
+    <string name="pref_dialogtitle_mms_notification_mode">Pick your view mode</string>
 </resources>
 

@@ -156,4 +156,18 @@
     <item>20</item>
   </string-array>
 
+
+  <!-- Wes Garner: Notication Modes -->
+  <string-array name="pref_mms_notification_mode_entries">
+    <item>Default Mode</item>
+    <item>Privacy Mode</item>
+    <item>Always Show Last Message</item>
+  </string-array>
+
+  <string-array name="pref_mms_notification_mode_values">
+    <item>default</item>
+    <item>private</item>
+    <item>showlast</item>
+  </string-array>
+
 </resources>

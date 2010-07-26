@@ -81,6 +81,15 @@
                       android:dependency="pref_key_enable_notifications"
                       android:title="@string/pref_notification_settings_title">
         <PreferenceCategory android:title="@string/pref_notification_settings_title">
+	  <!-- Wes Garner: Notication Modes -->
+          <ListPreference android:key="pref_key_mms_notification_mode"
+                          android:dependency="pref_key_enable_notifications"
+                          android:defaultValue="default"
+                          android:title="@string/pref_title_mms_notification_mode"
+                          android:summary="@string/pref_summary_mms_notification_mode"
+                          android:entries="@array/pref_mms_notification_mode_entries"
+                          android:entryValues="@array/pref_mms_notification_mode_values"
+                          android:dialogTitle="@string/pref_dialogtitle_mms_notification_mode" />
           <RingtonePreference android:layout="?android:attr/preferenceLayoutChild"
                               android:dependency="pref_key_enable_notifications"
                               android:key="pref_key_ringtone"
